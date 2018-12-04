@@ -3,7 +3,7 @@ frequencies = [0]
 running = True
 changes = []
 
-for line in open("input.txt", "r"):
+for line in open("inputs/day-01.txt", "r"):
     changes.append(int(line))
 
 while running:
